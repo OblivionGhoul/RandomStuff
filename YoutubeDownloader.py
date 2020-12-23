@@ -16,7 +16,7 @@ else:
         try:
             url = input("Enter the URL: ")
             v = pytube.YouTube(url)
-            stream = v.streams.get_by_itag(22)
+            stream = v.streams.get_by_itag(299)
             print("Downloading video...")
             stream.download()
             print("Download Complete!")
@@ -34,7 +34,7 @@ else:
 
             for x, video in enumerate(videoList):
                 v = pytube.YouTube(video)
-                stream = v.streams.get_by_itag(22)
+                stream = v.streams.get_by_itag(299)
                 print(f"Downloading video {x}...")
                 stream.download()
                 print("Download Complete!")
