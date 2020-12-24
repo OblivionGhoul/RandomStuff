@@ -2,4 +2,4 @@
 Converts mp4 files to gif files. 
 
 ## YouTube Downloader
-Downloads youtube videos using a url. 
+Downloads Youtube videos using a url. 
